@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{9229B606-8BDC-4DEC-878A-1AEA1EDA864F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E41D266-556A-4A06-88C5-7983B7BA5F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLearn.Api", "backend\src\SmartLearn.Api\SmartLearn.Api.csproj", "{40F6FC51-92E5-47EA-BF86-39AC1EE7BC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLearn.Application", "backend\src\SmartLearn.Application\SmartLearn.Application.csproj", "{967BA8DE-C0BD-486D-BEA0-6C8B48813C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLearn.Domain", "backend\src\SmartLearn.Domain\SmartLearn.Domain.csproj", "{373B88BE-6867-43CB-A314-E1B9D1192BD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLearn.Infrastructure", "backend\src\SmartLearn.Infrastructure\SmartLearn.Infrastructure.csproj", "{D1D5B828-8210-4213-BDAD-B6AE4DD55872}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DB8692DE-E384-46BE-BA63-3089A19F98C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLearn.UnitTests", "backend\tests\SmartLearn.UnitTests\SmartLearn.UnitTests.csproj", "{A16BDA34-FBA8-4B4D-A962-BE76BA83CB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartLearn.IntegrationTests", "backend\tests\SmartLearn.IntegrationTests\SmartLearn.IntegrationTests.csproj", "{4E3F173D-0368-440E-A20C-EED2390F14D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F6FC51-92E5-47EA-BF86-39AC1EE7BC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F6FC51-92E5-47EA-BF86-39AC1EE7BC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F6FC51-92E5-47EA-BF86-39AC1EE7BC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F6FC51-92E5-47EA-BF86-39AC1EE7BC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967BA8DE-C0BD-486D-BEA0-6C8B48813C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967BA8DE-C0BD-486D-BEA0-6C8B48813C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967BA8DE-C0BD-486D-BEA0-6C8B48813C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967BA8DE-C0BD-486D-BEA0-6C8B48813C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373B88BE-6867-43CB-A314-E1B9D1192BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373B88BE-6867-43CB-A314-E1B9D1192BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373B88BE-6867-43CB-A314-E1B9D1192BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373B88BE-6867-43CB-A314-E1B9D1192BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D5B828-8210-4213-BDAD-B6AE4DD55872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D5B828-8210-4213-BDAD-B6AE4DD55872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D5B828-8210-4213-BDAD-B6AE4DD55872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D5B828-8210-4213-BDAD-B6AE4DD55872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16BDA34-FBA8-4B4D-A962-BE76BA83CB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16BDA34-FBA8-4B4D-A962-BE76BA83CB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16BDA34-FBA8-4B4D-A962-BE76BA83CB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16BDA34-FBA8-4B4D-A962-BE76BA83CB74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3F173D-0368-440E-A20C-EED2390F14D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3F173D-0368-440E-A20C-EED2390F14D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3F173D-0368-440E-A20C-EED2390F14D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3F173D-0368-440E-A20C-EED2390F14D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E41D266-556A-4A06-88C5-7983B7BA5F1E} = {9229B606-8BDC-4DEC-878A-1AEA1EDA864F}
+		{40F6FC51-92E5-47EA-BF86-39AC1EE7BC59} = {6E41D266-556A-4A06-88C5-7983B7BA5F1E}
+		{967BA8DE-C0BD-486D-BEA0-6C8B48813C76} = {6E41D266-556A-4A06-88C5-7983B7BA5F1E}
+		{373B88BE-6867-43CB-A314-E1B9D1192BD6} = {6E41D266-556A-4A06-88C5-7983B7BA5F1E}
+		{D1D5B828-8210-4213-BDAD-B6AE4DD55872} = {6E41D266-556A-4A06-88C5-7983B7BA5F1E}
+		{DB8692DE-E384-46BE-BA63-3089A19F98C1} = {9229B606-8BDC-4DEC-878A-1AEA1EDA864F}
+		{A16BDA34-FBA8-4B4D-A962-BE76BA83CB74} = {DB8692DE-E384-46BE-BA63-3089A19F98C1}
+		{4E3F173D-0368-440E-A20C-EED2390F14D4} = {DB8692DE-E384-46BE-BA63-3089A19F98C1}
+	EndGlobalSection
+EndGlobal

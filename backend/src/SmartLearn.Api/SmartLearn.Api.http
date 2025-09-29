@@ -1,0 +1,6 @@
+@SmartLearn.Api_HostAddress = http://localhost:5130
+
+GET {{SmartLearn.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
